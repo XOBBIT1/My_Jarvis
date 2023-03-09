@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "my-poetry"
+version = "0.1.0"
+description = ""
+authors = ["den"]
+readme = "README.md"
+packages = [{include = "my_poetry"}]
+
+[tool.poetry.dependencies]
+python = "3.9"
+silero = "^0.4.1"
+sounddevice = "^0.4.6"
+numpy = "^1.24.2"
+vosk = "^0.3.45"
+dotenv = "^0.0.5"
+python-dotenv = "^1.0.0"
+fuzzywuzzy = "^0.18.0"
+num-to-rus = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
